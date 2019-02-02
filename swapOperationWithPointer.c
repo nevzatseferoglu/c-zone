@@ -8,7 +8,7 @@ int main()
 	 char checkWordA[]= "string 1";
 	 char checkWordB[]= "string 2";
 
-    printf("Before altering the string is %s\n",checkWordA);
+        printf("Before altering the string is %s\n",checkWordA);
 	printf("Before altering the string is %s\n",checkWordB);
 	
 	swap_Function(checkWordA,checkWordB);
