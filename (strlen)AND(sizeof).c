@@ -4,8 +4,8 @@ int main()
 {
 	char example[40]="World";
 
-	printf("(Strlen)  measured  as  %ld\n",strlen(example));
-	printf("(Sizeof)  measured  as  %ld\n",sizeof(example));
+	printf("(Strlen)  measured  as  %ld\n",strlen(example)); //output is '5'  	; 
+	printf("(Sizeof)  measured  as  %ld\n",sizeof(example)); //output is '40' 	;
 
- return(0);
+	return(0);
 }
