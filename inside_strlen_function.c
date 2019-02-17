@@ -16,3 +16,16 @@ int fonk(char *s){   				//This fucntion returns the size of string array type ;
 	}
 	return p-s;
 }
+
+// We can clarify it like below ;
+
+/*strlen :  return length of string */
+int strlen(char s[])
+{
+	int i;
+	i=0;
+	while (s[i]!='\0')
+		++i;
+	
+	return i;
+}
