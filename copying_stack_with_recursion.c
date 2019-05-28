@@ -1,0 +1,80 @@
+-------------------------------------------------------
+void copyStack(stack* stack_,stack** tempStack)
+{
+	if(stack_)
+	{
+		copyStack(stack_->next,tempStack);
+		push(tempStack,stack_->data);
+	}
+}
+-------------------------------------------------------
+void copyStack(stack* stack_,stack** tempStack)
+{
+	if(stack_)
+	{
+		if(stack_)
+		{
+			if(stack_)
+			{
+				if(stack_)
+				{
+					if(stack_)
+					{
+						if(stack_)
+						{				
+							/*if(stack_)									
+							{
+								copyStack(stack_->next,tempStack);				
+								push(tempStack,stack_->data);
+							}*/
+							push(tempStack,stack_->data);
+						}
+						push(tempStack,stack_->data);
+					}
+					push(tempStack,stack_->data);
+				}
+				push(tempStack,stack_->data);
+			}
+			push(tempStack,stack_->data);
+		}
+		push(tempStack,stack_->data);
+	}
+}
+-------------------------------------------------------
+void copyStack(stack* stack_,stack** tempStack)
+{
+	if(stack_)
+	{
+		push(tempStack,stack_->data);
+		copyStack(stack_->next,tempStack);
+	}
+}
+-------------------------------------------------------
+void copyStack(stack* stack_,stack** tempStack)
+{
+	if(stack_)
+	{
+		push(tempStack,stack_->data);
+		if(stack_)
+		{
+			push(tempStack,stack_->data);
+			if(stack_)
+			{
+				push(tempStack,stack_->data);
+				if(stack_)
+				{
+					push(tempStack,stack_->data);
+					if(stack_)
+					{
+						push(tempStack,stack_->data);
+						/*if(stack_)
+						{
+							push(tempStack,stack_->data);
+							copyStack(stack_->next,tempStack);
+						}*/
+					}
+				}
+			}
+		}
+	}
+}
